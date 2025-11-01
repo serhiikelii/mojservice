@@ -57,24 +57,6 @@ mojservice/
 └── prisma/             # Database schema
 ```
 
-## 🎨 Дизайн
-
-Дизайн основан на референсе: https://www.appleguru.cz/en/
-
-## 🤖 AI Агенты (Archon)
-
-Проект разрабатывается с использованием специализированных AI агентов:
-
-- `archon_blueprint_architect` - Архитектура
-- `uiux_enhancement_agent` - UI/UX дизайн
-- `api_development_agent` - Backend API
-- `security_audit_agent` - Безопасность
-- `archon_implementation_engineer` - Реализация
-
-## 📝 TODO
-
-См. задачи в Archon: Project ID `5d225e97-9080-42a3-ba6a-c3ab59c11baa`
-
 ## 📄 Лицензия
 
 Private project

@@ -5,6 +5,7 @@ import { Service, ServicePrice } from '@/types/pricelist';
 export interface ServiceRowProps {
   service: Service;
   price?: ServicePrice;
+  onReserve?: () => void;
 }
 
 /**

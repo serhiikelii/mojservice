@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react';
 import Link from "next/link"
 
 type CategoryId = 'iphone' | 'mac' | 'ipad' | 'watch';
@@ -71,8 +72,8 @@ export function HeroSection() {
 }
 
 // Helper function to get category icons
-function getCategoryIconSVG(categoryId: CategoryId): JSX.Element {
-  const icons: Record<CategoryId, JSX.Element> = {
+function getCategoryIconSVG(categoryId: CategoryId): React.ReactElement {
+  const icons: Record<CategoryId, React.ReactElement> = {
     iphone: (
       // Smartphone icon
       <path

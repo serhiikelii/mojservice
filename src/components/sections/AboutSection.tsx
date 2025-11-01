@@ -123,7 +123,7 @@ export function AboutSection() {
 
         {/* Заключительный блок */}
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-12 mb-4">
-          We don't hack, we fix!
+          We don&apos;t hack, we fix!
         </h2>
 
         <p className="text-gray-700 leading-relaxed mb-4">

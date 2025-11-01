@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import Link from 'next/link';
 import { DeviceCategory } from '@/types/pricelist';
 
@@ -69,8 +70,8 @@ export function CategoryNavigation({ currentCategory }: CategoryNavigationProps)
 }
 
 // Helper function to get category icons
-function getCategoryIconSVG(categoryId: DeviceCategory): JSX.Element {
-  const icons: Record<DeviceCategory, JSX.Element> = {
+function getCategoryIconSVG(categoryId: DeviceCategory): React.ReactElement {
+  const icons: Record<DeviceCategory, React.ReactElement> = {
     iphone: (
       <path
         strokeLinecap="round"

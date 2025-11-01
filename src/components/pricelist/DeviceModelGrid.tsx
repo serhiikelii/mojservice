@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import Link from 'next/link';
 import { DeviceCategory, DeviceModel } from '@/types/pricelist';
 import { CategoryNavigation } from './CategoryNavigation';
@@ -162,8 +163,8 @@ function getCategoryName(category: DeviceCategory): string {
   return names[category];
 }
 
-function getCategoryIconSVG(category: DeviceCategory): JSX.Element {
-  const icons: Record<DeviceCategory, JSX.Element> = {
+function getCategoryIconSVG(category: DeviceCategory): React.ReactElement {
+  const icons: Record<DeviceCategory, React.ReactElement> = {
     iphone: (
       // Smartphone icon
       <path
